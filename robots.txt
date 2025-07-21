@@ -1,0 +1,13 @@
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://zeylanka.com/sitemap.xml
+
+# Crawl-delay for politeness
+Crawl-delay: 1
+
+# Disallow sensitive directories
+Disallow: /venv/
+Disallow: /.claude/
+Disallow: /_template.html

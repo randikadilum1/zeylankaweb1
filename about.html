@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - ZEYLANKA</title>
+    <meta name="description" content="Learn about ZEYLANKA - Sri Lanka's premier tourism company. Discover our mission to showcase authentic Sri Lankan culture, destinations, and premium Ceylon products.">
+    <meta name="keywords" content="about ZEYLANKA, Sri Lanka tourism company, authentic travel, Ceylon products, tourism mission, local experiences, company story">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="About Us - ZEYLANKA">
+    <meta property="og:description" content="Learn about ZEYLANKA - Sri Lanka's premier tourism company. Discover our mission to showcase authentic Sri Lankan culture, destinations, and premium Ceylon products.">
+    <meta property="og:image" content="https://zeylanka.com/images/3.png">
+    <meta property="og:url" content="https://zeylanka.com/about.html">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="ZEYLANKA">
+    
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="About Us - ZEYLANKA">
+    <meta name="twitter:description" content="Learn about ZEYLANKA - Sri Lanka's premier tourism company. Discover our mission to showcase authentic Sri Lankan culture, destinations, and premium Ceylon products.">
+    <meta name="twitter:image" content="https://zeylanka.com/images/3.png">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        srilanka: {
+                            gold: '#FFD700',
+                            green: '#228B22',
+                            orange: '#FF6B35',
+                            teal: '#20B2AA'
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+</head>
+<body class="font-sans bg-gray-50">
+    <header class="sticky top-0 z-50 bg-white shadow-lg relative">
+        <div class="container mx-auto px-4 py-3">
+            <div class="flex items-center justify-between">
+                <div><a href="index.html"><img src="images/3.png" alt="ZEYLANKA Logo" class="h-10 w-auto"></a></div>
+                <nav class="hidden md:flex space-x-8 items-center">
+                    <a href="index.html" class="text-gray-700 hover:text-srilanka-orange">Home</a>
+                    <a href="destinations.html" class="text-gray-700 hover:text-srilanka-orange">Destinations</a>
+                    <a href="packages.html" class="text-gray-700 hover:text-srilanka-orange">Tour Packages</a>
+                    <a href="products.html" class="text-gray-700 hover:text-srilanka-orange">Zeylanka Products</a>
+                    <a href="blog.html" class="text-gray-700 hover:text-srilanka-orange">Blog</a>
+                    <a href="contact-us.html" class="text-gray-700 hover:text-srilanka-orange">Contact Us</a>
+                    <a href="about.html" class="text-srilanka-orange font-bold">About Us</a>
+                </nav>
+                <div class="hidden md:block">
+                    <a href="custom-tour.html" class="bg-srilanka-orange text-white px-6 py-2 rounded-full hover:bg-orange-600">Book Now</a>
+                </div>
+                <button class="md:hidden" id="mobile-menu-btn">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
+                </button>
+            </div>
+        </div>
+        <div id="mobile-menu" class="hidden md:hidden fixed inset-0 bg-gray-900 bg-opacity-95 z-50">
+            <div class="flex justify-end p-4">
+                <button id="mobile-menu-close" class="text-white text-3xl">&times;</button>
+            </div>
+            <nav class="flex flex-col items-center justify-center h-full space-y-8">
+                <a href="index.html" class="text-white text-2xl hover:text-srilanka-orange">Home</a>
+                <a href="destinations.html" class="text-white text-2xl hover:text-srilanka-orange">Destinations</a>
+                <a href="packages.html" class="text-white text-2xl hover:text-srilanka-orange">Tour Packages</a>
+                <a href="products.html" class="text-white text-2xl hover:text-srilanka-orange">Zeylanka Products</a>
+                <a href="blog.html" class="text-white text-2xl hover:text-srilanka-orange">Blog</a>
+                <a href="contact-us.html" class="text-white text-2xl hover:text-srilanka-orange">Contact Us</a>
+                <a href="about.html" class="text-srilanka-orange text-2xl font-bold">About Us</a>
+                <a href="custom-tour.html" class="bg-srilanka-orange text-white px-8 py-3 mt-8 rounded-full text-lg hover:bg-orange-600">Book Now</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="relative h-96 bg-cover bg-center" style="background-image: url('images/about-hero.jpg');">
+            <div class="absolute inset-0 bg-black bg-opacity-50"></div>
+            <div class="relative z-10 flex items-center justify-center h-full text-center text-white">
+                <div class="max-w-4xl px-4">
+                    <h1 class="text-4xl md:text-6xl font-bold">Our Story</h1>
+                    <p class="text-lg md:text-2xl mt-4 opacity-90">Crafting Authentic Sri Lankan Experiences</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="py-16 md:py-20 bg-white">
+            <div class="container mx-auto px-4">
+                <div class="grid md:grid-cols-2 gap-12 items-center">
+                    <div class="text-gray-800">
+                        <h2 class="text-3xl font-bold mb-4 text-srilanka-green">Who We Are</h2>
+                        <p class="text-lg text-gray-700 mb-6 leading-relaxed">
+                            ZEYLANKA was born from a deep-rooted passion for the enchanting island of Sri Lanka. We are not just a travel company; we are a team of local experts, storytellers, and travel enthusiasts dedicated to showcasing the true essence of our homeland – its vibrant culture, breathtaking landscapes, and the warm, welcoming spirit of its people.
+                        </p>
+                        <p class="text-lg text-gray-700 leading-relaxed">
+                            Our goal is to move beyond conventional tourism and offer you immersive journeys that connect you with the heart and soul of Sri Lanka. From the ancient kingdoms to the misty tea plantations, every tour and product we offer is a testament to our commitment to authenticity and quality.
+                        </p>
+                    </div>
+                    <div>
+                        <img src="images/our-story.jpg" alt="ZEYLANKA Team" class="rounded-lg shadow-2xl">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="py-16 md:py-20 bg-gray-50">
+            <div class="container mx-auto px-4">
+                <h2 class="text-3xl md:text-4xl font-bold text-center mb-12 text-gray-800">Why Travel With ZEYLANKA?</h2>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
+                    <div class="bg-white p-8 rounded-lg shadow-md">
+                        <div class="flex items-center justify-center h-16 w-16 rounded-full bg-srilanka-teal text-white mx-auto mb-4">
+                            <i class="fas fa-map-marked-alt text-3xl"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-gray-800 mb-2">Local Expertise</h3>
+                        <p class="text-gray-600">Our team consists of locals who know the hidden gems and stories behind every corner of the island.</p>
+                    </div>
+                    <div class="bg-white p-8 rounded-lg shadow-md">
+                        <div class="flex items-center justify-center h-16 w-16 rounded-full bg-srilanka-teal text-white mx-auto mb-4">
+                           <i class="fas fa-magic text-3xl"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-gray-800 mb-2">Tailor-Made Journeys</h3>
+                        <p class="text-gray-600">We don't offer one-size-fits-all packages. Every trip is crafted to match your interests, budget, and travel style.</p>
+                    </div>
+                    <div class="bg-white p-8 rounded-lg shadow-md">
+                         <div class="flex items-center justify-center h-16 w-16 rounded-full bg-srilanka-teal text-white mx-auto mb-4">
+                            <i class="fas fa-handshake text-3xl"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-gray-800 mb-2">Authentic Experiences</h3>
+                        <p class="text-gray-600">We connect you with local communities for genuine interactions, from cooking classes to village visits.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8 text-center md:text-left">
+                <div class="mb-6 md:mb-0">
+                    <h3 class="text-2xl font-bold mb-4 text-srilanka-gold">ZEYLANKA</h3>
+                    <p class="text-gray-400">
+                        Connecting you to the authentic beauty, culture, and flavors of Sri Lanka through unforgettable experiences and premium Ceylon products.
+                    </p>
+                </div>
+                
+                <div class="mb-6 md:mb-0">
+                    <h4 class="text-lg font-semibold mb-4">Quick Links</h4>
+                    <ul class="space-y-2">
+                        <li><a href="index.html" class="text-gray-400 hover:text-srilanka-gold transition-colors">Home</a></li>
+                        <li><a href="packages.html" class="text-gray-400 hover:text-srilanka-gold transition-colors">Tours</a></li>
+                        <li><a href="about.html" class="text-gray-400 hover:text-srilanka-gold transition-colors">About Us</a></li>
+                        <li><a href="contact-us.html" class="text-gray-400 hover:text-srilanka-gold transition-colors">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="mb-6 md:mb-0">
+                    <h4 class="text-lg font-semibold mb-4">Contact</h4>
+                    <div class="space-y-2">
+                        <p class="text-gray-400">info@zeylanka.com</p>
+                        <p class="text-gray-400">+94 77 782 5640</p>
+                    </div>
+                </div>
+                
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Follow Us</h4>
+                    <div class="flex space-x-4 justify-center md:justify-start">
+                        <a href="#" class="text-gray-400 hover:text-srilanka-gold transition-colors"><i class="fab fa-facebook-f text-xl"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-srilanka-gold transition-colors"><i class="fab fa-instagram text-xl"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-srilanka-gold transition-colors"><i class="fab fa-twitter text-xl"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-800 mt-8 pt-8 text-center">
+                <p class="text-gray-400">© 2025 ZEYLANKA. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="js/mobile-menu.js"></script>
+    <a href="https://wa.me/94777825640" target="_blank" rel="noopener noreferrer" class="fixed bottom-5 right-5 z-50 bg-green-500 text-white flex items-center justify-center h-16 w-16 rounded-full shadow-lg hover:bg-green-600 transition-transform transform hover:scale-110">
+        <i class="fab fa-whatsapp text-4xl"></i>
+    </a>
+</body>
+</html>
